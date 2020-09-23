@@ -269,6 +269,9 @@ export interface Icons {
   SortArrow?: React.ForwardRefExoticComponent<
     React.RefAttributes<SVGSVGElement>
   >;
+  Unsorted?: React.ForwardRefExoticComponent<
+    React.RefAttributes<SVGSVGElement>
+  >;
   LastPage?: React.ForwardRefExoticComponent<
     React.RefAttributes<SVGSVGElement>
   >;

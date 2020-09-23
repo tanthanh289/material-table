@@ -282,6 +282,11 @@ export const propTypes = {
       PropTypes.func,
       RefComponent,
     ]),
+    Unsorted: PropTypes.oneOfType([
+      PropTypes.element,
+      PropTypes.func,
+      RefComponent,
+    ]),
     ThirdStateCheck: PropTypes.oneOfType([
       PropTypes.element,
       PropTypes.func,

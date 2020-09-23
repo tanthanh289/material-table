@@ -178,6 +178,11 @@ export const defaultProps = {
         arrow_downward
       </Icon>
     )),
+    Unsorted: React.forwardRef((props, ref) => (
+      <Icon {...props} ref={ref}>
+        import_export
+      </Icon>
+    )),
     ThirdStateCheck: React.forwardRef((props, ref) => (
       <Icon {...props} ref={ref}>
         remove
